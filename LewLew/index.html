@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lew's Creamery | Freshly Baked Happiness</title><!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+    <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+</head>
+<body>
+<header>
+  <h1>Lew’s Creamery</h1>
+
+  <div class="menu-toggle" onclick="toggleMenu()">
+    ☰
+  </div>
+
+  <nav id="navMenu">
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-text">
+        <h2>Freshly Baked Happiness</h2>
+        <p>Indulge in handcrafted cakes, pastries, and breads made with love, quality ingredients, and a touch of elegance.</p>
+        <a class="btn" href="https://wa.me/27606803044" target="_blank">Order on WhatsApp</a>
+    </div>
+    <div class="hero-image">
+        <img src="images/icon.jpg" alt="Lew's Creamery Treats">
+    </div>
+</section>
+
+<section class="features">
+    <div class="feature-card">
+        <h3>Fresh Daily</h3>
+        <p>All our baked goods are prepared fresh every day for maximum taste and quality.</p>
+    </div>
+    <div class="feature-card">
+        <h3>Custom Orders</h3>
+        <p>From birthdays to weddings, we bake to make your moments unforgettable.</p>
+    </div>
+    <div class="feature-card">
+        <h3>Premium Ingredients</h3>
+        <p>Only the finest ingredients go into everything we create.</p>
+    </div>
+</section>
+
+
+<footer>
+    <div class="socials">
+  <a href="https://www.instagram.com/lews_creamery?igsh=cnZrajk4dW94bm8z" target="_blank" aria-label="Instagram">
+    <i class="fa-brands fa-instagram"></i>
+  </a>
+  <a href="https://www.tiktok.com/@lewscreamery_?_r=1&_t=ZS-93dbW4PrygG" target="_blank" aria-label="TikTok">
+    <i class="fa-brands fa-tiktok"></i>
+  </a>
+</div>
+    <p>&copy; 2026 Lew's Creamery | Crafted with Passion</p>
+</footer>
+
+<script>
+function toggleMenu() {
+  document.getElementById('navMenu').classList.toggle('show');
+}
+</script>
+
+</body>
+</html>
